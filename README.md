@@ -19,11 +19,11 @@ By combining layout-aware document parsing, dynamic schema compilation across 80
                       |   Native Markdown + Tables  |
                       +--------------+--------------+
                                      |
-+--------------------------+         v         +---------------------------+
++--------------------------+         v              +---------------------------+
 | EFRAG Blank Template     |---> [ 2. Dynamic ] <---| EFRAG Sample Knowledge    |
 | (800+ Named Ranges via   |     [   Schema   ]     | Base (Few-shot formatting |
 |  openpyxl)               |     [ & Examples ]     |  guidelines)              |
-+--------------------------+         |         +---------------------------+
++--------------------------+         |              +---------------------------+
                                      v
                       +-----------------------------+
                       | 3. Full-Context Extraction  |
